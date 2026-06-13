@@ -2,9 +2,9 @@
 # File: setup.sh
 # Description: Copy configs, prepare set_cam_state.sh with sudo permissions
 
-CONFIG_SRC="$HOME/klipper-march/config"
+CONFIG_SRC="$HOME/cubidex-klipper/config"
 CONFIG_DST="$HOME/printer_data/config"
-CAM_SCRIPT="$HOME/klipper-march/scripts/set_cam_state.sh"
+CAM_SCRIPT="$HOME/cubidex-klipper/scripts/set_cam_state.sh"
 
 echo "Copying files from $CONFIG_SRC to $CONFIG_DST..."
 mkdir -p "$CONFIG_DST"
